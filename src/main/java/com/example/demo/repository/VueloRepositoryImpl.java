@@ -42,7 +42,7 @@ public class VueloRepositoryImpl implements IVueloRepository {
 		// TODO Auto-generated method stub
 		TypedQuery<Vuelo>myQuery=this.entityManager.createQuery("SELECT v FROM Vuelo v WHERE v.numero=:numero",Vuelo.class);
 		myQuery.setParameter("numero",numero);
-		return null;
+		return myQuery.getResultList();
 	}
 
 }
