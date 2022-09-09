@@ -29,11 +29,7 @@ public class ClienteGestorImpl implements IClienteGestor{
 		return lista;
 	}
 
-	@Override
-	public List<Vuelo> buscarVuelosDisponibles() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 	@Override
 	public void reserva(Integer cantidadAsientosComprados, String cedula,String numero) {

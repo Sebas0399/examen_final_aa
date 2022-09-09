@@ -5,7 +5,6 @@ import java.util.List;
 import com.example.demo.repository.modelo.Vuelo;
 
 public interface IClienteGestor {
-public List<Vuelo>buscarVuelosDisponibles();
 
 List<Vuelo> buscarVuelosDisponibles(String origen, String Destino, String fechaVuelo);
 
